@@ -1,0 +1,10 @@
+{
+    "folders": [
+        { "path": ".config/i3"},
+        { "path": ".config/polybar"},
+        { "path": ".config/picom"},
+        { "path": ".config/kitty"},
+        { "path": ".config/rofi"}
+    ]
+    
+}
