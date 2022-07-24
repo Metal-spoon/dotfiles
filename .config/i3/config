@@ -216,11 +216,11 @@ bindsym Print exec flameshot-wrapper%{O-4}
 
 #Brightness keybind
 #TODO: script that respects minimum
-bindsym XF86MonBrightnessUp exec brightnessctl set +10%
-bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
 #Music control
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec playerctl --no-startup-id play-pause
+bindsym XF86AudioNext exec playerctl --no-startup-id next
+bindsym XF86AudioPrev exec playerctl --no-startup-id previous
 
